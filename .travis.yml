@@ -3,5 +3,6 @@ language: bash
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y zenity
+  - sudo apt-get install -y putty
 
 script: bash simple-ssh-tunnel.sh
