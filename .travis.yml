@@ -1,5 +1,6 @@
 language: bash
 
-before_script: apt-get install zenity
+before_script: -sudo apt-get install zenity
+- sudo apt-get install putty
 
 script: bash simple-ssh-tunnel.sh
