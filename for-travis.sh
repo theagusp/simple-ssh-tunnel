@@ -4,12 +4,4 @@
 
 # Simple SSH Tunnel v1.0a built with zenity.
 
-zenity --warning --title "Attention" --text='Beta testing, Something might be wrong!'
-
-host=$(zenity --entry --title "Host" --text "Enter hostname. Eg: 127.0.0.1")
-port=$(zenity --entry --title "Port" --text "Enter server port. Eg: 443")
-user=$(zenity --entry --title "Username" --text "Enter username. Eg: matt")
-password=$(zenity --password --title "Password" --text "Enter password. Eg: matt")
-listen=$(zenity --entry --title "Listen Port" --text "Enter your listen port. Eg: 1080")
-
-echo y | plink -v -N -C -D 1080 fastssh.com-1089761034@nl.serverip.co -P 443 -pw 1
+echo "Welcome"
