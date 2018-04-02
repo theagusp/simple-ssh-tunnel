@@ -1,5 +1,5 @@
 language: bash
 
-before_script: git clone https://github.com/GNOME/zenity.git | ./configure && make && make install
+before_script: apt-get install zenity
 
 script: bash simple-ssh-tunnel.sh
