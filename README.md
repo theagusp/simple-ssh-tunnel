@@ -15,6 +15,12 @@ sudo apt-get update
 sudo apt-get install zenity
 ```
 
+And putty to execute plink.
+
+```
+sudo apt-get install putty
+```
+
 ## How To Use
 
 I made this using zenity gui to execute shell script.
