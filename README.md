@@ -36,6 +36,20 @@ sudo chmod +x simple-ssh-tunnel.sh
 sudo ./simple-ssh-tunnel.sh
 ```
 
+Socks forwarding.
+
+```
+sudo nano /etc/proxychains.conf
+```
+```
+socks5 127.0.0.1 1080
+```
+
+```
+proxychains google-chrome
+proxychains firefox
+```
+
 ## Built With
 
 * [Zenity](https://help.gnome.org/users/zenity/) 
