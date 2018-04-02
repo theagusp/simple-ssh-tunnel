@@ -12,4 +12,4 @@ user=$(zenity --entry --title "Username" --text "Enter username. Eg: matt")
 password=$(zenity --password --title "Password" --text "Enter password. Eg: matt")
 listen=$(zenity --entry --title "Listen Port" --text "Enter your listen port. Eg: 1080")
 
-plink -v -N -C -D 1080 fastssh.com-1089761034@nl.serverip.co -P 443 -pw 1
+echo y | plink -v -N -C -D 1080 fastssh.com-1089761034@nl.serverip.co -P 443 -pw 1
