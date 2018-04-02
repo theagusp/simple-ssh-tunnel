@@ -2,6 +2,10 @@
 
 Have you cann't connect to ssh server to tunnel your connection on linux because bash shell are disabled? Here i will make simple ssh tunneling software without bash.
 
+## Status
+
+[![Build Status](https://travis-ci.org/theagusp/simple-ssh-tunnel.svg?branch=master)](https://travis-ci.org/theagusp/simple-ssh-tunnel)
+
 ## Getting Started
 
 First you need a zenity.
