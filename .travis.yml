@@ -1,4 +1,4 @@
 language: bash
 
 script:
-    - simple-ssh-tunnel.sh
+    - bash simple-ssh-tunnel.sh
