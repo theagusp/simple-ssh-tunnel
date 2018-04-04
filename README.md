@@ -1,6 +1,6 @@
 # Simple SSH Tunnel
 
-Have you cann't connect to ssh server to tunnel your connection on linux because bash shell are disabled? Here i will make simple ssh tunneling software without bash.
+Have you cann't connect to ssh server to tunnel your connection on linux because no option for SSH/2? Here i will make simple ssh tunneling software without opening shell.
 
 ## Status
 
