@@ -4,7 +4,7 @@
 
 # Simple SSH Tunnel v1.0a built with zenity.
 
-zenity --warning --title "Attention" --text='Beta testing, Something might be wrong!'
+zenity --warning --title "Attention" --text='Final release v1.0a, simple gui no form.'
 
 host=$(zenity --entry --title "Host" --text "Enter hostname. Eg: 127.0.0.1")
 port=$(zenity --entry --title "Port" --text "Enter server port. Eg: 443")
