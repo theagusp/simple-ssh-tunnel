@@ -8,7 +8,7 @@ Have you cann't connect to ssh server to tunnel your connection on linux because
 
 ## Getting Started
 
-First you need a zenity.
+First you need a zenity to make gui app.
 
 ```
 sudo apt-get update
@@ -29,7 +29,7 @@ sudo apt-get install proxychains
 
 ## How To Use
 
-I made this using zenity gui to execute shell script.
+I made this using zenity gui to execute bash script.
 
 ```
 sudo chmod +x simple-ssh-tunnel.sh
@@ -44,6 +44,8 @@ sudo nano /etc/proxychains.conf
 ```
 socks5 127.0.0.1 1080
 ```
+
+Then browsing 
 
 ```
 proxychains google-chrome
