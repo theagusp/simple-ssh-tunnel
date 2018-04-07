@@ -4,4 +4,4 @@
 
 # Travis still failing, but this method work. Same as function but this is static function. Only Demo no affect code.
 
-plink -N -C fastssh.com@free.fastssh.com -P 443 -pw fastssh.com -D 1080
+plink -v -N -C fastssh.com@free.fastssh.com -P 443 -pw fastssh.com -D 1080
